@@ -24,7 +24,7 @@ export function AppCard({ app }: { app: App }) {
   return (
     <a href={`/apps/${app.id}/`} className="block h-full rounded-xl focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none">
       <Card className="group h-full gap-0 pt-0 transition duration-200 hover:-translate-y-0.5 hover:ring-foreground/20 hover:shadow-lg hover:shadow-black/5 dark:hover:shadow-black/40">
-        <div className="relative aspect-video overflow-hidden border-b border-border/60">
+        <div className="relative aspect-[460/215] overflow-hidden border-b border-border/60">
           <AppArt app={app} className="transition duration-300 group-hover:scale-[1.03]" />
         </div>
         <CardHeader className="pt-4">
