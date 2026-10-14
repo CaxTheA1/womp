@@ -8,6 +8,22 @@
     "steamAppId": 264710
   },
   {
+    "id": "l4d",
+    "name": "Left For Dead",
+    "description": "From Valve (the creators of Counter-Strike, Half-Life and more) comes Left 4 Dead, a co-op action horror game for the PC and Xbox 360 that casts up to four players in an epic struggle for survival against swarming zombie hordes and terrifying mutant monsters. ",
+    "tier": "borked",
+    "steamAppId": 500,
+    "image": "/images/l4d.jpg"
+  },
+  {
+    "id": "l4d2",
+    "name": "Left For Dead 2",
+    "description": "Set in the zombie apocalypse, Left 4 Dead 2 is a co-operative action horror FPS takes you and your friends through the cities, swamps and cemeteries of the Deep South, from Savannah to New Orleans across five expansive campaigns. ",
+    "tier": "borked",
+    "steamAppId": 550,
+    "image": "/images/l4d2.jpg"
+  },
+  {
     "id": "sbz",
     "name": "Subnautica: Below Zero",
     "description": "Dive into a freezing underwater adventure on an alien planet. Below Zero is set two years after the original Subnautica. Return to Planet 4546B to uncover the truth behind a deadly cover-up. Survive by building habitats, crafting tools, & diving deeper into the world of Subnautica.",
