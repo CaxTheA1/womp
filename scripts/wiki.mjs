@@ -49,6 +49,9 @@ apps.forEach((app, i) => {
   if (app?.website !== undefined && !(typeof app.website === "string" && /^https?:\/\/\S+$/.test(app.website))) {
     errors.push(`${at}: "website" must be a full http(s) URL`);
   }
+  if (app?.commonsFile !== undefined && !(typeof app.commonsFile === "string" && app.commonsFile.trim() !== "")) {
+    errors.push(`${at}: "commonsFile" must be a file name such as "Firefox logo, 2019.svg"`);
+  }
   if (typeof app?.image === "string" && app.image.startsWith("/") && !existsSync(join(root, "public", app.image))) {
     errors.push(`${at}: image ${app.image} does not exist in public/`);
   }

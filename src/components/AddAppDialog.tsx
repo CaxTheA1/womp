@@ -74,12 +74,14 @@ export function AddAppDialog() {
             </div>
             <p className="mt-2 text-muted-foreground">
               <code className="text-xs">tier</code> is one of {TIER_IDS.join(", ")}. <code className="text-xs">steamAppId</code>{" "}
-              is the number in the Steam store URL; use <code className="text-xs">website</code> instead for apps that
-              aren't on Steam. Remember the comma after the previous entry.
+              is the number in the Steam store URL. For apps that aren't on Steam, use{" "}
+              <code className="text-xs">website</code> instead, and{" "}
+              <code className="text-xs">commonsFile</code> for the name of a logo on Wikimedia Commons. Remember the
+              comma after the previous entry.
             </p>
           </li>
           <li>
-            Open a pull request. CI checks the entry. Once it's merged, CI creates the app's wiki page and, if you set a steamAppId, downloads its Steam image.
+            Open a pull request. CI checks the entry. Once it's merged, CI creates the app's wiki page and downloads its image if you set steamAppId or commonsFile.
           </li>
         </ol>
 

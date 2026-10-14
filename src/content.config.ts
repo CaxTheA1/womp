@@ -13,6 +13,7 @@ const apps = defineCollection({
     tier: z.enum(TIER_IDS),
     steamAppId: z.number().int().positive().optional(),
     website: z.url().optional(),
+    commonsFile: z.string().optional(),
   }),
 });
 

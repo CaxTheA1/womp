@@ -9,6 +9,8 @@ export interface App {
   /** Numeric id from the app's Steam store URL. */
   steamAppId?: number;
   website?: string;
+  /** Wikimedia Commons file the CI turns into the image, for apps not on Steam. */
+  commonsFile?: string;
 }
 
 export interface AppLink {

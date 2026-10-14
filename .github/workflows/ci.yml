@@ -21,9 +21,10 @@ jobs:
 
       - run: npm ci
 
-      # Downloads the Steam header image for entries that have a steamAppId
-      # but no image, and sets "image" on them.
-      - name: Fetch Steam images
+      # For entries without an image, downloads the Steam header image when
+      # the entry has a steamAppId, otherwise the Wikimedia Commons file named
+      # in commonsFile, and sets "image" on them.
+      - name: Fetch images
         run: npm run images
 
       # Fails on invalid JSON, missing fields, unknown tiers, duplicate ids and
@@ -46,6 +47,6 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898341+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Add generated wiki pages and Steam images"
+          git commit -m "Add generated wiki pages and images"
           git pull --rebase origin master
           git push origin HEAD:master
