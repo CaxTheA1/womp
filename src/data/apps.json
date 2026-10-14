@@ -1,5 +1,23 @@
 [
   {
+    "id": "undertale",
+    "name": "Undertale",
+    "description": "Welcome to UNDERTALE. In this RPG, you control a human who falls underground into the world of monsters. Now you must find your way out... or stay trapped forever. ",
+    "tier": "gold"
+  },
+  {
+    "id": "ddlc",
+    "name": "Doki Doki Literature Club",
+    "description": "Welcome to the Literature Club! It's always been a dream of mine to make something special out of the things I love. Now that you're a club member, you can help me make that dream come true in this cute game!",
+    "tier": "borked"
+  },
+  {
+    "id": "deltarune",
+    "name": "Deltarune",
+    "description": "The next adventure in the UNDERTALE series has appeared! Fight (or spare) alongside new characters in UNDERTALE's parallel story, DELTARUNE...!",
+    "tier": "gold"
+  },
+  {
     "id": "roblox",
     "name": "Roblox",
     "description": "Online game platform for playing games made by other users.",
@@ -47,6 +65,114 @@
     "id": "zomboid",
     "name": "Project Zomboid",
     "description": "Project Zomboid is an open-ended zombie-infested sandbox. It asks one simple question – how will you die?",
+    "tier": "borked"
+  },
+  {
+    "id": "lifeisstrangeep1",
+    "name": "Life Is Strange: Episode 1",
+    "description": "Life is Strange is an award-winning and critically acclaimed episodic adventure game that allows the player to rewind time and affect the past, present and future.",
+    "tier": "borked"
+  },
+  {
+    "id": "dressmakerprototype",
+    "name": "Dressmaker",
+    "description": "Become a dressmaker, choose dress designs, cut out fabric and sew them all together to satisfy (or sabotage!) customers.",
+    "tier": "borked"
+  },
+    {
+    "id": "drunkdrivingsim",
+    "name": "Drunk Driving Simulator",
+    "description": "A game where you drink and drive...",
+    "tier": "borked"
+  },
+  {
+    "id": "blender",
+    "name": "Blender",
+    "description": "3D Modelling, animation, and texture making program",
+    "tier": "borked"
+  },
+  {
+    "id": "celltosingularity",
+    "name": "Cell To Singularity: Evolution Never Ends",
+    "description": "Tap into the extraordinary tale of evolution in this cosmic clicker game.",
+    "tier": "borked"
+  },
+  {
+    "id": "baldisbasicscr",
+    "name": "Baldi's Basics Classic Remastered",
+    "description": "Escape Baldi's schoolhouse again in this new remastered version of Baldi's Basics Classic!",
+    "tier": "borked"
+  },
+  {
+    "id": "godot",
+    "name": "Godot Engine",
+    "description": "2D and 3D cross-platform game engine.",
+    "tier": "borked"
+  },
+  {
+    "id": "gmod",
+    "name": "Garry's Mod",
+    "description": "Physics sandbox. There aren't any predefined aims or goals. We give you the tools and leave you to play.",
+    "tier": "borked"
+  },
+  {
+    "id": "gamemaker",
+    "name": "GameMaker",
+    "description": "2D development environment.",
+    "tier": "borked"
+  },
+  {
+    "id": "maidcafesim",
+    "name": "Maid Cafe Simulator",
+    "description": "Run a maid café with five charming kemonomimi maids!",
+    "tier": "borked"
+  },
+  {
+    "id": "brawlhalla",
+    "name": "Brawlhalla",
+    "description": "An epic platform fighter for up to 8 players online or local.",
+    "tier": "borked"
+  },
+  {
+    "id": "cubeescape10",
+    "name": "Cube Escape: Paradox",
+    "description": "A puzzle and escape game.",
+    "tier": "borked"
+  },
+  {
+    "id": "sas4",
+    "name": "SAS: Zombie Assault 4",
+    "description": "Intense action-shooter with deep rpg elements, including upgradeable guns and armor, unique class skills, and class special abilities.",
+    "tier": "borked"
+  },
+  {
+    "id": "supremacy1914",
+    "name": "Supremacy: 1914",
+    "description": "WW1 strategy game.",
+    "tier": "borked"
+  },
+  {
+    "id": "zato",
+    "name": "Z.A.T.O: I Love the World and Everything In It",
+    "description": "Z.A.T.O. is a linear visual novel with roughly 7-8 hours of playtime. There are no choices. The ending is predetermined. Sit back and enjoy your time in a town that doesn't exist.",
+    "tier": "borked"
+  },
+  {
+    "id": "ets2",
+    "name": "Euro Truck Simulator 2",
+    "description": "European Truck Driver simulator.",
+    "tier": "borked"
+  },
+   {
+    "id": "mindustry",
+    "name": "Mindustry",
+    "description": "Hybrid tower-defense sandbox factory game.",
+    "tier": "borked"
+  },
+  {
+    "id": "vtubestudio",
+    "name": "VTube Studio",
+    "description": "VTube Studio is all you'll ever need to become a Live2D VTuber, with innovative features such as pinning props to your model and many more still to come.",
     "tier": "borked"
   }
 ]
