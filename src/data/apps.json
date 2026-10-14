@@ -3,12 +3,14 @@
     "id": "roblox",
     "name": "Roblox",
     "description": "Online game platform for playing games made by other users.",
-    "tier": "silver"
+    "tier": "silver",
+    "image": "/images/roblox_player.png"
   },
   {
     "id": "roblox-studio",
     "name": "Roblox Studio",
     "description": "Roblox's editor for building and publishing games on the platform.",
     "tier": "silver"
+    "image": "/images/roblox_studio.png"
   }
 ]
