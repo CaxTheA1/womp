@@ -9,7 +9,10 @@ npm install
 npm run dev      # http://localhost:4321
 npm run build    # static site in dist/
 npm run check    # type-check
+npm run deploy   # build and deploy to Cloudflare Workers (needs CLOUDFLARE_API_TOKEN)
 ```
+
+The site is served as static assets from a Cloudflare Worker named `rosemarydb`, configured in `wrangler.jsonc`.
 
 ## Adding an app
 
