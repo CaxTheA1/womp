@@ -10,7 +10,7 @@
     "id": "roblox-studio",
     "name": "Roblox Studio",
     "description": "Roblox's editor for building and publishing games on the platform.",
-    "tier": "silver"
+    "tier": "silver",
     "image": "/images/roblox_studio.png"
   }
 ]
