@@ -21,6 +21,11 @@ jobs:
 
       - run: npm ci
 
+      # Downloads the Steam header image for entries that have a steamAppId
+      # but no image, and sets "image" on them.
+      - name: Fetch Steam images
+        run: npm run images
+
       # Fails on invalid JSON, missing fields, unknown tiers, duplicate ids and
       # missing images. Creates a wiki page for every new entry in apps.json.
       - name: Validate apps.json and create wiki pages
@@ -29,18 +34,18 @@ jobs:
       - name: Build
         run: npm run build
 
-      # On pull requests the new pages only exist inside this run; they are
-      # committed once the entry lands on master.
-      - name: Commit new wiki pages
+      # On pull requests the new pages and images only exist inside this run;
+      # they are committed once the entry lands on master.
+      - name: Commit generated files
         if: github.event_name == 'push'
         run: |
-          git add src/content/wiki
+          git add src/content/wiki src/data/apps.json public/images
           if git diff --cached --quiet; then
-            echo "No new wiki pages."
+            echo "Nothing generated."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898341+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Add wiki pages for new apps"
+          git commit -m "Add generated wiki pages and Steam images"
           git pull --rebase origin master
           git push origin HEAD:master

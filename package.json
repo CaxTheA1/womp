@@ -11,7 +11,8 @@
     "check": "astro check",
     "deploy": "astro build && wrangler deploy",
     "wiki": "node scripts/wiki.mjs",
-    "wiki:check": "node scripts/wiki.mjs --check"
+    "wiki:check": "node scripts/wiki.mjs --check",
+    "images": "node scripts/steam-images.mjs"
   },
   "dependencies": {
     "@astrojs/mdx": "^8.0.3",

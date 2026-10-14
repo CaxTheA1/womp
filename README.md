@@ -30,7 +30,7 @@ Entries live in `src/data/apps.json`. Each entry looks like this:
 
 `steamAppId` and `website` are optional. `steamAppId` is the number in the app's Steam store URL (`store.steampowered.com/app/<steamAppId>/`); `website` is a full URL, for apps that aren't on Steam or that mainly distribute from their own site. Both are linked from the app's wiki page.
 
-`id` must be unique. `image` is optional: put the file in `public/images/` and reference it as `/images/<file>`, or use a full URL. Cards without an image show the app's initial on a background tinted by its tier.
+`id` must be unique. `image` is optional: put the file in `public/images/` and reference it as `/images/<file>`, or use a full URL. If an entry has a `steamAppId` and no `image`, `npm run images` downloads the app's Steam header image to `public/images/<id>.jpg` and fills in `image`; CI runs it on every push. Cards without an image show the app's initial on a background tinted by its tier.
 
 `tier` must be one of `platinum`, `gold`, `silver`, `bronze` or `borked`. The build fails if an entry has an unknown tier or is missing a required field. Tier labels, descriptions and colors are defined in `src/lib/tiers.ts`.
 
@@ -40,4 +40,4 @@ Every app has a wiki page at `/apps/<id>`, written in `src/content/wiki/<id>.mdx
 
 `npm run wiki` validates `apps.json` and creates a page from a template for every entry that doesn't have one. `npm run wiki:check` runs the same validation but fails instead of creating pages.
 
-CI (`.github/workflows/ci.yml`) runs `npm run wiki` and a build on every pull request and every push to `master`. On `master` it commits any new wiki pages back to the branch, so adding an entry to `apps.json` is enough to get its page.
+CI (`.github/workflows/ci.yml`) runs `npm run images`, `npm run wiki` and a build on every pull request and every push to `master`. On `master` it commits any new wiki pages and Steam images back to the branch, so adding an entry to `apps.json` is enough to get its page and, for Steam apps, its image.

@@ -79,7 +79,7 @@ export function AddAppDialog() {
             </p>
           </li>
           <li>
-            Open a pull request. CI checks the entry, and the app's wiki page is created once it's merged.
+            Open a pull request. CI checks the entry. Once it's merged, CI creates the app's wiki page and, if you set a steamAppId, downloads its Steam image.
           </li>
         </ol>
 
