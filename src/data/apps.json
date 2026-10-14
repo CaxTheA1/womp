@@ -296,7 +296,8 @@
     "description": "Raster image editor for photo editing, compositing and digital painting.",
     "tier": "borked",
     "website": "https://www.adobe.com/products/photoshop.html",
-    "commonsFile": "Adobe Photoshop CC 2026 icon.svg"
+    "commonsFile": "Adobe Photoshop CC 2026 icon.svg",
+    "image": "/images/adobe-photoshop.svg"
   },
   {
     "id": "adobe-illustrator",
@@ -304,7 +305,8 @@
     "description": "Vector graphics editor for illustrations, logos and icons.",
     "tier": "borked",
     "website": "https://www.adobe.com/products/illustrator.html",
-    "commonsFile": "Adobe Illustrator CC icon.svg"
+    "commonsFile": "Adobe Illustrator CC icon.svg",
+    "image": "/images/adobe-illustrator.svg"
   },
   {
     "id": "adobe-indesign",
@@ -312,7 +314,8 @@
     "description": "Page layout and typesetting app for print and digital publications.",
     "tier": "borked",
     "website": "https://www.adobe.com/products/indesign.html",
-    "commonsFile": "Adobe Indesign CC 2026 icon.svg"
+    "commonsFile": "Adobe Indesign CC 2026 icon.svg",
+    "image": "/images/adobe-indesign.svg"
   },
   {
     "id": "adobe-incopy",
@@ -320,7 +323,8 @@
     "description": "Word processor for writing and editing the text in InDesign layouts.",
     "tier": "borked",
     "website": "https://www.adobe.com/products/incopy.html",
-    "commonsFile": "Adobe InCopy CC 2026 icon.svg"
+    "commonsFile": "Adobe InCopy CC 2026 icon.svg",
+    "image": "/images/adobe-incopy.svg"
   },
   {
     "id": "adobe-premiere-pro",
@@ -328,7 +332,8 @@
     "description": "Non-linear video editor.",
     "tier": "borked",
     "website": "https://www.adobe.com/products/premiere.html",
-    "commonsFile": "Adobe Premiere Pro CC 2026 icon.svg"
+    "commonsFile": "Adobe Premiere Pro CC 2026 icon.svg",
+    "image": "/images/adobe-premiere-pro.svg"
   },
   {
     "id": "adobe-after-effects",
@@ -336,7 +341,8 @@
     "description": "Motion graphics and visual effects compositing app.",
     "tier": "borked",
     "website": "https://www.adobe.com/products/aftereffects.html",
-    "commonsFile": "Adobe After Effects CC 2026 icon.svg"
+    "commonsFile": "Adobe After Effects CC 2026 icon.svg",
+    "image": "/images/adobe-after-effects.svg"
   },
   {
     "id": "adobe-audition",
@@ -344,7 +350,8 @@
     "description": "Audio editor and multitrack mixer.",
     "tier": "borked",
     "website": "https://www.adobe.com/products/audition.html",
-    "commonsFile": "Adobe Audition CC 2026 icon.svg"
+    "commonsFile": "Adobe Audition CC 2026 icon.svg",
+    "image": "/images/adobe-audition.svg"
   },
   {
     "id": "adobe-media-encoder",
@@ -352,7 +359,8 @@
     "description": "Video and audio encoder used alongside Premiere Pro and After Effects.",
     "tier": "borked",
     "website": "https://www.adobe.com/products/media-encoder.html",
-    "commonsFile": "Adobe Media Encoder CC 2026 icon.svg"
+    "commonsFile": "Adobe Media Encoder CC 2026 icon.svg",
+    "image": "/images/adobe-media-encoder.svg"
   },
   {
     "id": "adobe-animate",
@@ -360,7 +368,8 @@
     "description": "Vector animation app for web, games and video, formerly Flash Professional.",
     "tier": "borked",
     "website": "https://www.adobe.com/products/animate.html",
-    "commonsFile": "Adobe Animate CC icon (2020).svg"
+    "commonsFile": "Adobe Animate CC icon (2020).svg",
+    "image": "/images/adobe-animate.svg"
   },
   {
     "id": "adobe-character-animator",
@@ -368,7 +377,8 @@
     "description": "Animates 2D puppets in real time from webcam and microphone input.",
     "tier": "borked",
     "website": "https://www.adobe.com/products/character-animator.html",
-    "commonsFile": "Adobe Character Animator icon (2020).svg"
+    "commonsFile": "Adobe Character Animator icon (2020).svg",
+    "image": "/images/adobe-character-animator.svg"
   },
   {
     "id": "adobe-dreamweaver",
@@ -376,7 +386,8 @@
     "description": "Website editor with a code view and live preview.",
     "tier": "borked",
     "website": "https://www.adobe.com/products/dreamweaver.html",
-    "commonsFile": "Adobe Dreamweaver CC icon.svg"
+    "commonsFile": "Adobe Dreamweaver CC icon.svg",
+    "image": "/images/adobe-dreamweaver.svg"
   },
   {
     "id": "adobe-lightroom",
@@ -384,7 +395,8 @@
     "description": "Cloud-based photo editor and organizer.",
     "tier": "borked",
     "website": "https://www.adobe.com/products/photoshop-lightroom.html",
-    "commonsFile": "Adobe Lightroom CC 2026 icon.svg"
+    "commonsFile": "Adobe Lightroom CC 2026 icon.svg",
+    "image": "/images/adobe-lightroom.svg"
   },
   {
     "id": "adobe-lightroom-classic",
@@ -392,7 +404,8 @@
     "description": "Desktop photo editor with a locally stored catalog.",
     "tier": "borked",
     "website": "https://www.adobe.com/products/photoshop-lightroom-classic.html",
-    "commonsFile": "Adobe Lightroom Classic CC 2026 icon.svg"
+    "commonsFile": "Adobe Lightroom Classic CC 2026 icon.svg",
+    "image": "/images/adobe-lightroom-classic.svg"
   },
   {
     "id": "adobe-bridge",
@@ -400,7 +413,8 @@
     "description": "File browser and asset manager for creative files.",
     "tier": "borked",
     "website": "https://www.adobe.com/products/bridge.html",
-    "commonsFile": "Adobe Bridge CC 2026 icon.svg"
+    "commonsFile": "Adobe Bridge CC 2026 icon.svg",
+    "image": "/images/adobe-bridge.svg"
   },
   {
     "id": "adobe-acrobat-pro",
@@ -408,6 +422,7 @@
     "description": "PDF editor for creating, editing, signing and converting PDFs.",
     "tier": "borked",
     "website": "https://www.adobe.com/acrobat/acrobat-pro.html",
-    "commonsFile": "Adobe Acrobat DC icon.svg"
+    "commonsFile": "Adobe Acrobat DC icon.svg",
+    "image": "/images/adobe-acrobat-pro.svg"
   }
 ]
