@@ -24,9 +24,9 @@
     "image": "/images/l4d2.jpg"
   },
   {
-    "id": "lordgabenfinestcreation",
+    "id": "steam",
     "name": "Steam",
-    "description": "Peakest Game-Store",
+    "description": "Video game marketplace",
     "tier": "borked",
     "website": "https://store.steampowered.com/"
   },
