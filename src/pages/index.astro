@@ -1,0 +1,52 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "@/layouts/Layout.astro";
+import { AppBrowser } from "@/components/AppBrowser";
+import type { App } from "@/lib/apps";
+import { TIER_IDS, TIERS } from "@/lib/tiers";
+
+const tierOrder = Object.fromEntries(TIER_IDS.map((id, i) => [id, i]));
+
+const apps: App[] = (await getCollection("apps"))
+  .map(({ data }) => data)
+  .sort((a, b) => tierOrder[a.tier] - tierOrder[b.tier] || a.name.localeCompare(b.name));
+
+const distribution = TIER_IDS.map((id) => ({
+  ...TIERS[id],
+  count: apps.filter((app) => app.tier === id).length,
+})).filter((t) => t.count > 0);
+---
+
+<Layout>
+  <section class="pt-16 pb-10 md:pt-24 md:pb-14">
+    <h1 class="max-w-2xl text-4xl font-semibold tracking-tight text-balance md:text-5xl">
+      Which apps run on rosemary?
+    </h1>
+    <p class="mt-4 max-w-xl text-base text-muted-foreground md:text-lg">
+      {apps.length} apps rated from Platinum (runs perfectly out of the box) to Borked (doesn't start).
+    </p>
+
+    <div class="mt-10 max-w-2xl">
+      <div class="flex h-2 overflow-hidden rounded-full bg-muted" role="img" aria-label="Apps per tier">
+        {distribution.map((t) => <div class={t.swatch} style={{ width: `${(t.count / apps.length) * 100}%` }} />)}
+      </div>
+      <dl class="mt-4 grid grid-cols-2 gap-x-6 gap-y-3 text-sm sm:grid-cols-3 md:grid-cols-5">
+        {
+          TIER_IDS.map((id) => (
+            <div title={TIERS[id].summary}>
+              <dt class="flex items-center gap-1.5 text-muted-foreground">
+                <span aria-hidden="true" class:list={["size-2 rounded-full", TIERS[id].swatch]} />
+                {TIERS[id].label}
+              </dt>
+              <dd class="mt-0.5 text-lg font-semibold tabular-nums">
+                {apps.filter((app) => app.tier === id).length}
+              </dd>
+            </div>
+          ))
+        }
+      </dl>
+    </div>
+  </section>
+
+  <AppBrowser client:load apps={apps} />
+</Layout>

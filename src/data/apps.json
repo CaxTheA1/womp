@@ -1,0 +1,77 @@
+[
+  {
+    "id": "inkwell",
+    "name": "Inkwell",
+    "description": "Distraction-free Markdown editor with live preview and folder sync.",
+    "image": "/images/inkwell.svg",
+    "tier": "platinum"
+  },
+  {
+    "id": "pixelforge",
+    "name": "PixelForge",
+    "description": "Layer-based raster image editor with brushes, masks and filters.",
+    "image": "/images/pixelforge.svg",
+    "tier": "gold"
+  },
+  {
+    "id": "tempo-daw",
+    "name": "Tempo DAW",
+    "description": "Multitrack audio workstation with MIDI sequencing and plugin hosting.",
+    "tier": "silver"
+  },
+  {
+    "id": "ledgerly",
+    "name": "Ledgerly",
+    "description": "Personal finance tracker with budgets, reports and CSV import.",
+    "tier": "platinum"
+  },
+  {
+    "id": "orbit-chat",
+    "name": "Orbit Chat",
+    "description": "Team messaging client with channels, threads and voice calls.",
+    "image": "/images/orbit-chat.svg",
+    "tier": "gold"
+  },
+  {
+    "id": "vectorline",
+    "name": "Vectorline",
+    "description": "Vector illustration tool for logos, icons and print layouts.",
+    "tier": "bronze"
+  },
+  {
+    "id": "cascade-ide",
+    "name": "Cascade IDE",
+    "description": "Code editor with debugger, Git integration and extension marketplace.",
+    "tier": "silver"
+  },
+  {
+    "id": "framecut",
+    "name": "FrameCut",
+    "description": "Non-linear video editor with color grading and GPU export.",
+    "tier": "borked"
+  },
+  {
+    "id": "shelfreader",
+    "name": "ShelfReader",
+    "description": "E-book library manager and reader for EPUB and PDF.",
+    "tier": "platinum"
+  },
+  {
+    "id": "blueprint-cad",
+    "name": "Blueprint CAD",
+    "description": "2D and 3D drafting suite for architecture and mechanical parts.",
+    "tier": "bronze"
+  },
+  {
+    "id": "nightsky",
+    "name": "NightSky",
+    "description": "Planetarium app that renders the sky for any date and location.",
+    "tier": "gold"
+  },
+  {
+    "id": "vaultkey",
+    "name": "VaultKey",
+    "description": "Password manager with browser autofill and hardware key support.",
+    "tier": "borked"
+  }
+]
