@@ -28,7 +28,8 @@
     "name": "Steam",
     "description": "Video game marketplace",
     "tier": "borked",
-    "website": "https://store.steampowered.com/"
+    "website": "https://store.steampowered.com/",
+    "commonsFile": "Steam icon logo.svg"
   },
   {
     "id": "sbz",
