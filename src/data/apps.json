@@ -1,5 +1,17 @@
 [
   {
+    "id": "undertale",
+    "name": "Undertale",
+    "description": "Welcome to UNDERTALE. In this RPG, you control a human who falls underground into the world of monsters. Now you must find your way out... or stay trapped forever. ",
+    "tier": "gold"
+  },
+  {
+    "id": "deltarune",
+    "name": "Deltarune",
+    "description": "The next adventure in the UNDERTALE series has appeared! Fight (or spare) alongside new characters in UNDERTALE's parallel story, DELTARUNE...!",
+    "tier": "gold"
+  },
+  {
     "id": "roblox",
     "name": "Roblox",
     "description": "Online game platform for playing games made by other users.",
@@ -47,6 +59,18 @@
     "id": "zomboid",
     "name": "Project Zomboid",
     "description": "Project Zomboid is an open-ended zombie-infested sandbox. It asks one simple question – how will you die?",
+    "tier": "borked"
+  },
+  {
+    "id": "lifeisstrangeep1",
+    "name": "Life Is Strange: Episode 1",
+    "description": "Life is Strange is an award-winning and critically acclaimed episodic adventure game that allows the player to rewind time and affect the past, present and future.",
+    "tier": "borked"
+  },
+  {
+    "id": "dressmakerprototype",
+    "name": "Dressmaker Prototype",
+    "description": "Become a dressmaker, choose dress designs, cut out fabric and sew them all together to satisfy (or sabotage!) customers.",
     "tier": "borked"
   },
   {
