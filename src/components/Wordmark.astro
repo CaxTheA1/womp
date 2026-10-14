@@ -1,0 +1,15 @@
+---
+interface Props {
+  /** Append the green "db" suffix. */
+  db?: boolean;
+  class?: string;
+}
+
+const { db = false, class: className } = Astro.props;
+---
+
+<span class:list={["font-wordmark font-normal", className]}
+  >rose<span class="text-violet-400 dark:text-violet-300">mary</span>{
+    db && <span class="text-green-500 dark:text-green-300">db</span>
+  }</span
+>

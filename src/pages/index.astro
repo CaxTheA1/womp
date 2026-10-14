@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import Layout from "@/layouts/Layout.astro";
+import Wordmark from "@/components/Wordmark.astro";
 import { AppBrowser } from "@/components/AppBrowser";
 import type { App } from "@/lib/apps";
 import { TIER_IDS, TIERS } from "@/lib/tiers";
@@ -20,7 +21,7 @@ const distribution = TIER_IDS.map((id) => ({
 <Layout>
   <section class="pt-16 pb-10 md:pt-24 md:pb-14">
     <h1 class="max-w-2xl text-4xl font-semibold tracking-tight text-balance md:text-5xl">
-      Which apps run on rosemary?
+      Which apps run on <Wordmark />?
     </h1>
     <p class="mt-4 max-w-xl text-base text-muted-foreground md:text-lg">
       {apps.length} apps rated from Platinum (runs perfectly out of the box) to Borked (doesn't start).
