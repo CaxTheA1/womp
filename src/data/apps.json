@@ -163,7 +163,7 @@
     "description": "European Truck Driver simulator.",
     "tier": "borked"
   },
-   {
+  {
     "id": "mindustry",
     "name": "Mindustry",
     "description": "Hybrid tower-defense sandbox factory game.",
@@ -173,6 +173,18 @@
     "id": "vtubestudio",
     "name": "VTube Studio",
     "description": "VTube Studio is all you'll ever need to become a Live2D VTuber, with innovative features such as pinning props to your model and many more still to come.",
+    "tier": "borked"
+  },
+  {
+    "id": "chromium",
+    "name": "Chromium (includes CEF and other derivatives)",
+    "description": "Free and open source web browser project",
+    "tier": "borked"
+  },
+  {
+    "id": "firefox",
+    "name": "Firefox (including its derivatives)",
+    "description": "Free and open source web browser project",
     "tier": "borked"
   }
 ]
