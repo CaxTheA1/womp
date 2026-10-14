@@ -12,5 +12,41 @@
     "description": "Roblox's editor for building and publishing games on the platform.",
     "tier": "silver",
     "image": "/images/roblox_studio.png"
-  }
+  },
+  {
+    "id": "terraria",
+    "name": "Terraria",
+    "description": "Adventure survival game",
+    "tier": "borked"
+  },
+  {
+    "id": "helltaker",
+    "name": "Helltaker",
+    "description": "You woke up one day with a dream. Harem full of demon girls.",
+    "tier": "borked"
+  },
+  {
+    "id": "warthunder",
+    "name": "WarThunder",
+    "description": "The most comprehensive free-to-play, cross-platform, MMO military game dedicated to aviation, armoured vehicles and others.",
+    "tier": "borked"
+  },
+  {
+    "id": "unturned",
+    "name": "Unturned",
+    "description": "Survive after the apocalypse, build, cooperate with other players in multiplayer mode or create mods",
+    "tier": "borked"
+  },
+  {
+    "id": "castle-crashers",
+    "name": "Castle Crashers",
+    "description": "Hack, slash, and smash your way to victory in this 2D sidescrolling arcade adventure from The Behemoth!",
+    "tier": "borked"
+  },
+  {
+    "id": "zomboid",
+    "name": "Project Zomboid",
+    "description": "Project Zomboid is an open-ended zombie-infested sandbox. It asks one simple question – how will you die?",
+    "tier": "borked"
+  },
 ]
