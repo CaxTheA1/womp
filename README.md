@@ -20,11 +20,11 @@ Entries live in `src/data/apps.json`. Each entry looks like this:
 
 ```json
 {
-  "id": "inkwell",
-  "name": "Inkwell",
-  "description": "Distraction-free Markdown editor with live preview and folder sync.",
-  "image": "/images/inkwell.svg",
-  "tier": "platinum"
+  "id": "roblox",
+  "name": "Roblox",
+  "description": "Online game platform for playing games made by other users.",
+  "image": "/images/roblox.png",
+  "tier": "silver"
 }
 ```
 
