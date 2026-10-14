@@ -1,6 +1,7 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { TierBadge } from "@/components/TierBadge";
-import type { App } from "@/lib/apps";
+import { ExternalLink } from "lucide-react";
+import { appLinks, type App } from "@/lib/apps";
 import { TIERS } from "@/lib/tiers";
 import { cn } from "@/lib/utils";
 
@@ -21,20 +22,42 @@ export function AppArt({ app, className }: { app: App; className?: string }) {
 }
 
 export function AppCard({ app }: { app: App }) {
+  const links = appLinks(app);
   return (
-    <a href={`/apps/${app.id}/`} className="block h-full rounded-xl focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none">
-      <Card className="group h-full gap-0 pt-0 transition duration-200 hover:-translate-y-0.5 hover:ring-foreground/20 hover:shadow-lg hover:shadow-black/5 dark:hover:shadow-black/40">
-        <div className="relative aspect-[460/215] overflow-hidden border-b border-border/60">
-          <AppArt app={app} className="transition duration-300 group-hover:scale-[1.03]" />
-        </div>
-        <CardHeader className="pt-4">
-          <CardTitle className="text-base font-semibold">{app.name}</CardTitle>
-          <CardDescription className="leading-relaxed">{app.description}</CardDescription>
-        </CardHeader>
-        <CardContent className="mt-auto pt-4">
-          <TierBadge tier={app.tier} />
-        </CardContent>
-      </Card>
-    </a>
+    <Card className="group relative h-full gap-0 pt-0 transition duration-200 has-[a:hover]:-translate-y-0.5 has-[a:hover]:ring-foreground/20 has-[a:hover]:shadow-lg has-[a:hover]:shadow-black/5 dark:has-[a:hover]:shadow-black/40">
+      <div className="relative aspect-[460/215] overflow-hidden border-b border-border/60">
+        <AppArt app={app} className="transition duration-300 group-has-[a:hover]:scale-[1.03]" />
+      </div>
+      <CardHeader className="pt-4">
+        <CardTitle className="text-base font-semibold">
+          {/* The ::after box stretches this link over the whole card. */}
+          <a
+            href={`/apps/${app.id}/`}
+            className="after:absolute after:inset-0 after:rounded-xl focus-visible:outline-none focus-visible:after:ring-2 focus-visible:after:ring-ring"
+          >
+            {app.name}
+          </a>
+        </CardTitle>
+        <CardDescription className="leading-relaxed">{app.description}</CardDescription>
+      </CardHeader>
+      <CardContent className="mt-auto flex items-center justify-between gap-3 pt-4">
+        <TierBadge tier={app.tier} />
+        {links.length > 0 && (
+          <div className="relative z-10 flex items-center gap-3 text-xs">
+            {links.map((l) => (
+              <a
+                key={l.href}
+                href={l.href}
+                target="_blank"
+                rel="noopener"
+                className="inline-flex items-center gap-1 text-muted-foreground underline-offset-4 hover:text-foreground hover:underline"
+              >
+                {l.label} <ExternalLink className="size-3" />
+              </a>
+            ))}
+          </div>
+        )}
+      </CardContent>
+    </Card>
   );
 }

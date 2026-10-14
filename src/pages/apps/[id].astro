@@ -4,6 +4,7 @@ import { ArrowLeft, ExternalLink } from "lucide-react";
 import Layout from "@/layouts/Layout.astro";
 import { AppArt } from "@/components/AppCard";
 import { TierBadge } from "@/components/TierBadge";
+import { appLinks } from "@/lib/apps";
 import { TIERS } from "@/lib/tiers";
 
 export async function getStaticPaths() {
@@ -20,10 +21,7 @@ const facts = [
   { label: "Built with", value: page?.data.builtWith },
 ].filter((f) => f.value);
 
-const links = [
-  app.steamAppId && { label: "Steam store page", href: `https://store.steampowered.com/app/${app.steamAppId}/` },
-  app.website && { label: "Website", href: app.website },
-].filter((l) => !!l);
+const links = appLinks(app).map((l) => (l.label === "Steam" ? { ...l, label: "Steam store page" } : l));
 ---
 
 <Layout title={`${app.name} · rosemarydb`} description={app.description}>
