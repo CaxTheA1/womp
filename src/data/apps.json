@@ -273,5 +273,110 @@
     "tier": "borked",
     "image": "/images/firefox.png",
     "website": "https://www.firefox.com/"
+  },
+  {
+    "id": "adobe-photoshop",
+    "name": "Adobe Photoshop",
+    "description": "Raster image editor for photo editing, compositing and digital painting.",
+    "tier": "borked",
+    "website": "https://www.adobe.com/products/photoshop.html"
+  },
+  {
+    "id": "adobe-illustrator",
+    "name": "Adobe Illustrator",
+    "description": "Vector graphics editor for illustrations, logos and icons.",
+    "tier": "borked",
+    "website": "https://www.adobe.com/products/illustrator.html"
+  },
+  {
+    "id": "adobe-indesign",
+    "name": "Adobe InDesign",
+    "description": "Page layout and typesetting app for print and digital publications.",
+    "tier": "borked",
+    "website": "https://www.adobe.com/products/indesign.html"
+  },
+  {
+    "id": "adobe-incopy",
+    "name": "Adobe InCopy",
+    "description": "Word processor for writing and editing the text in InDesign layouts.",
+    "tier": "borked",
+    "website": "https://www.adobe.com/products/incopy.html"
+  },
+  {
+    "id": "adobe-premiere-pro",
+    "name": "Adobe Premiere Pro",
+    "description": "Non-linear video editor.",
+    "tier": "borked",
+    "website": "https://www.adobe.com/products/premiere.html"
+  },
+  {
+    "id": "adobe-after-effects",
+    "name": "Adobe After Effects",
+    "description": "Motion graphics and visual effects compositing app.",
+    "tier": "borked",
+    "website": "https://www.adobe.com/products/aftereffects.html"
+  },
+  {
+    "id": "adobe-audition",
+    "name": "Adobe Audition",
+    "description": "Audio editor and multitrack mixer.",
+    "tier": "borked",
+    "website": "https://www.adobe.com/products/audition.html"
+  },
+  {
+    "id": "adobe-media-encoder",
+    "name": "Adobe Media Encoder",
+    "description": "Video and audio encoder used alongside Premiere Pro and After Effects.",
+    "tier": "borked",
+    "website": "https://www.adobe.com/products/media-encoder.html"
+  },
+  {
+    "id": "adobe-animate",
+    "name": "Adobe Animate",
+    "description": "Vector animation app for web, games and video, formerly Flash Professional.",
+    "tier": "borked",
+    "website": "https://www.adobe.com/products/animate.html"
+  },
+  {
+    "id": "adobe-character-animator",
+    "name": "Adobe Character Animator",
+    "description": "Animates 2D puppets in real time from webcam and microphone input.",
+    "tier": "borked",
+    "website": "https://www.adobe.com/products/character-animator.html"
+  },
+  {
+    "id": "adobe-dreamweaver",
+    "name": "Adobe Dreamweaver",
+    "description": "Website editor with a code view and live preview.",
+    "tier": "borked",
+    "website": "https://www.adobe.com/products/dreamweaver.html"
+  },
+  {
+    "id": "adobe-lightroom",
+    "name": "Adobe Lightroom",
+    "description": "Cloud-based photo editor and organizer.",
+    "tier": "borked",
+    "website": "https://www.adobe.com/products/photoshop-lightroom.html"
+  },
+  {
+    "id": "adobe-lightroom-classic",
+    "name": "Adobe Lightroom Classic",
+    "description": "Desktop photo editor with a locally stored catalog.",
+    "tier": "borked",
+    "website": "https://www.adobe.com/products/photoshop-lightroom-classic.html"
+  },
+  {
+    "id": "adobe-bridge",
+    "name": "Adobe Bridge",
+    "description": "File browser and asset manager for creative files.",
+    "tier": "borked",
+    "website": "https://www.adobe.com/products/bridge.html"
+  },
+  {
+    "id": "adobe-acrobat-pro",
+    "name": "Adobe Acrobat Pro",
+    "description": "PDF editor for creating, editing, signing and converting PDFs.",
+    "tier": "borked",
+    "website": "https://www.adobe.com/acrobat/acrobat-pro.html"
   }
 ]
