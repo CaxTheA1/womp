@@ -35,3 +35,5 @@ Game and app header images (`*.jpg`) are the store header art from each app's St
 `adobe-bridge.svg` uses [File:Adobe Bridge CC 2026 icon.svg](https://commons.wikimedia.org/wiki/File:Adobe_Bridge_CC_2026_icon.svg) by Adobe Inc., Public domain, from Wikimedia Commons.
 
 `adobe-acrobat-pro.svg` uses [File:Adobe Acrobat DC icon.svg](https://commons.wikimedia.org/wiki/File:Adobe_Acrobat_DC_icon.svg) by Adobe, Public domain, from Wikimedia Commons.
+
+`steam.svg` uses [File:Steam icon logo.svg](https://commons.wikimedia.org/wiki/File:Steam_icon_logo.svg) by Steam, Public domain, from Wikimedia Commons.
