@@ -1,6 +1,6 @@
 ---
 import { getCollection, getEntry, render } from "astro:content";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, ExternalLink } from "lucide-react";
 import Layout from "@/layouts/Layout.astro";
 import { AppArt } from "@/components/AppCard";
 import { TierBadge } from "@/components/TierBadge";
@@ -19,6 +19,11 @@ const facts = [
   { label: "Developer", value: page?.data.developer },
   { label: "Built with", value: page?.data.builtWith },
 ].filter((f) => f.value);
+
+const links = [
+  app.steamAppId && { label: "Steam store page", href: `https://store.steampowered.com/app/${app.steamAppId}/` },
+  app.website && { label: "Website", href: app.website },
+].filter((l) => !!l);
 ---
 
 <Layout title={`${app.name} · rosemarydb`} description={app.description}>
@@ -42,14 +47,26 @@ const facts = [
     </header>
 
     {
-      facts.length > 0 && (
-        <dl class="mt-8 grid grid-cols-1 gap-x-8 gap-y-3 border-y border-border/60 py-4 text-sm sm:grid-cols-2">
+      (facts.length > 0 || links.length > 0) && (
+        <dl class="mt-8 grid grid-cols-1 gap-x-8 gap-y-3 border-y border-border/60 py-4 text-sm sm:grid-cols-3">
           {facts.map((f) => (
             <div>
               <dt class="text-muted-foreground">{f.label}</dt>
               <dd class="mt-0.5 font-medium">{f.value}</dd>
             </div>
           ))}
+          {links.length > 0 && (
+            <div>
+              <dt class="text-muted-foreground">Links</dt>
+              {links.map((l) => (
+                <dd class="mt-0.5 font-medium">
+                  <a href={l.href} target="_blank" rel="noopener" class="inline-flex items-center gap-1 underline-offset-4 hover:underline">
+                    {l.label} <ExternalLink className="size-3.5 text-muted-foreground" />
+                  </a>
+                </dd>
+              ))}
+            </div>
+          )}
         </dl>
       )
     }

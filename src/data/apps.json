@@ -4,223 +4,258 @@
     "name": "Subnautica: Below Zero",
     "description": "Dive into a freezing underwater adventure on an alien planet. Below Zero is set two years after the original Subnautica. Return to Planet 4546B to uncover the truth behind a deadly cover-up. Survive by building habitats, crafting tools, & diving deeper into the world of Subnautica.",
     "tier": "gold",
-    "image": "/images/sbz.jpg"
+    "image": "/images/sbz.jpg",
+    "steamAppId": 848450
   },
   {
     "id": "undertale",
     "name": "Undertale",
     "description": "Welcome to UNDERTALE. In this RPG, you control a human who falls underground into the world of monsters. Now you must find your way out... or stay trapped forever. ",
     "tier": "gold",
-    "image": "/images/undertale.jpg"
+    "image": "/images/undertale.jpg",
+    "steamAppId": 391540
   },
   {
     "id": "ddlc",
     "name": "Doki Doki Literature Club",
     "description": "Welcome to the Literature Club! It's always been a dream of mine to make something special out of the things I love. Now that you're a club member, you can help me make that dream come true in this cute game!",
     "tier": "borked",
-    "image": "/images/ddlc.jpg"
+    "image": "/images/ddlc.jpg",
+    "steamAppId": 698780
   },
   {
     "id": "deltarune",
     "name": "Deltarune",
     "description": "The next adventure in the UNDERTALE series has appeared! Fight (or spare) alongside new characters in UNDERTALE's parallel story, DELTARUNE...!",
     "tier": "gold",
-    "image": "/images/deltarune.jpg"
+    "image": "/images/deltarune.jpg",
+    "steamAppId": 1671210
   },
   {
     "id": "roblox",
     "name": "Roblox",
     "description": "Online game platform for playing games made by other users.",
     "tier": "silver",
-    "image": "/images/roblox.png"
+    "image": "/images/roblox.png",
+    "website": "https://www.roblox.com/"
   },
   {
     "id": "roblox-studio",
     "name": "Roblox Studio",
     "description": "Roblox's editor for building and publishing games on the platform.",
     "tier": "silver",
-    "image": "/images/roblox-studio.png"
+    "image": "/images/roblox-studio.png",
+    "website": "https://create.roblox.com/"
   },
   {
     "id": "terraria",
     "name": "Terraria",
     "description": "Adventure survival game",
     "tier": "borked",
-    "image": "/images/terraria.jpg"
+    "image": "/images/terraria.jpg",
+    "steamAppId": 105600
   },
   {
     "id": "helltaker",
     "name": "Helltaker",
     "description": "You woke up one day with a dream. Harem full of demon girls.",
     "tier": "borked",
-    "image": "/images/helltaker.jpg"
+    "image": "/images/helltaker.jpg",
+    "steamAppId": 1289310
   },
   {
     "id": "warthunder",
     "name": "WarThunder",
     "description": "The most comprehensive free-to-play, cross-platform, MMO military game dedicated to aviation, armoured vehicles and others.",
     "tier": "borked",
-    "image": "/images/warthunder.jpg"
+    "image": "/images/warthunder.jpg",
+    "steamAppId": 236390
   },
   {
     "id": "unturned",
     "name": "Unturned",
     "description": "Survive after the apocalypse, build, cooperate with other players in multiplayer mode or create mods",
     "tier": "borked",
-    "image": "/images/unturned.jpg"
+    "image": "/images/unturned.jpg",
+    "steamAppId": 304930
   },
   {
     "id": "castle-crashers",
     "name": "Castle Crashers",
     "description": "Hack, slash, and smash your way to victory in this 2D sidescrolling arcade adventure from The Behemoth!",
     "tier": "borked",
-    "image": "/images/castle-crashers.jpg"
+    "image": "/images/castle-crashers.jpg",
+    "steamAppId": 204360
   },
   {
     "id": "zomboid",
     "name": "Project Zomboid",
     "description": "Project Zomboid is an open-ended zombie-infested sandbox. It asks one simple question – how will you die?",
     "tier": "borked",
-    "image": "/images/zomboid.jpg"
+    "image": "/images/zomboid.jpg",
+    "steamAppId": 108600
   },
   {
     "id": "lifeisstrangeep1",
     "name": "Life Is Strange: Episode 1",
     "description": "Life is Strange is an award-winning and critically acclaimed episodic adventure game that allows the player to rewind time and affect the past, present and future.",
     "tier": "borked",
-    "image": "/images/lifeisstrangeep1.jpg"
+    "image": "/images/lifeisstrangeep1.jpg",
+    "steamAppId": 319630
   },
   {
     "id": "dressmakerprototype",
     "name": "Dressmaker",
     "description": "Become a dressmaker, choose dress designs, cut out fabric and sew them all together to satisfy (or sabotage!) customers.",
     "tier": "borked",
-    "image": "/images/dressmakerprototype.jpg"
+    "image": "/images/dressmakerprototype.jpg",
+    "steamAppId": 4019220
   },
   {
     "id": "drunkdrivingsim",
     "name": "Drunk Driving Simulator",
     "description": "A game where you drink and drive...",
     "tier": "borked",
-    "image": "/images/drunkdrivingsim.jpg"
+    "image": "/images/drunkdrivingsim.jpg",
+    "steamAppId": 3852460
   },
   {
     "id": "blender",
     "name": "Blender",
     "description": "3D Modelling, animation, and texture making program",
     "tier": "borked",
-    "image": "/images/blender.jpg"
+    "image": "/images/blender.jpg",
+    "steamAppId": 365670,
+    "website": "https://www.blender.org/"
   },
   {
     "id": "celltosingularity",
     "name": "Cell To Singularity: Evolution Never Ends",
     "description": "Tap into the extraordinary tale of evolution in this cosmic clicker game.",
     "tier": "borked",
-    "image": "/images/celltosingularity.jpg"
+    "image": "/images/celltosingularity.jpg",
+    "steamAppId": 977400
   },
   {
     "id": "baldisbasicscr",
     "name": "Baldi's Basics Classic Remastered",
     "description": "Escape Baldi's schoolhouse again in this new remastered version of Baldi's Basics Classic!",
     "tier": "borked",
-    "image": "/images/baldisbasicscr.jpg"
+    "image": "/images/baldisbasicscr.jpg",
+    "steamAppId": 1712830
   },
   {
     "id": "godot",
     "name": "Godot Engine",
     "description": "2D and 3D cross-platform game engine.",
     "tier": "borked",
-    "image": "/images/godot.jpg"
+    "image": "/images/godot.jpg",
+    "steamAppId": 404790,
+    "website": "https://godotengine.org/"
   },
   {
     "id": "gmod",
     "name": "Garry's Mod",
     "description": "Physics sandbox. There aren't any predefined aims or goals. We give you the tools and leave you to play.",
     "tier": "borked",
-    "image": "/images/gmod.jpg"
+    "image": "/images/gmod.jpg",
+    "steamAppId": 4000
   },
   {
     "id": "gamemaker",
     "name": "GameMaker",
     "description": "2D development environment.",
     "tier": "borked",
-    "image": "/images/gamemaker.jpg"
+    "image": "/images/gamemaker.jpg",
+    "steamAppId": 1670460,
+    "website": "https://gamemaker.io/"
   },
   {
     "id": "maidcafesim",
     "name": "Maid Cafe Simulator",
     "description": "Run a maid café with five charming kemonomimi maids!",
     "tier": "borked",
-    "image": "/images/maidcafesim.jpg"
+    "image": "/images/maidcafesim.jpg",
+    "steamAppId": 3232690
   },
   {
     "id": "brawlhalla",
     "name": "Brawlhalla",
     "description": "An epic platform fighter for up to 8 players online or local.",
     "tier": "borked",
-    "image": "/images/brawlhalla.jpg"
+    "image": "/images/brawlhalla.jpg",
+    "steamAppId": 291550
   },
   {
     "id": "cubeescape10",
     "name": "Cube Escape: Paradox",
     "description": "A puzzle and escape game.",
     "tier": "borked",
-    "image": "/images/cubeescape10.jpg"
+    "image": "/images/cubeescape10.jpg",
+    "steamAppId": 909080
   },
   {
     "id": "sas4",
     "name": "SAS: Zombie Assault 4",
     "description": "Intense action-shooter with deep rpg elements, including upgradeable guns and armor, unique class skills, and class special abilities.",
     "tier": "borked",
-    "image": "/images/sas4.jpg"
+    "image": "/images/sas4.jpg",
+    "steamAppId": 678800
   },
   {
     "id": "supremacy1914",
     "name": "Supremacy: 1914",
     "description": "WW1 strategy game.",
     "tier": "borked",
-    "image": "/images/supremacy1914.jpg"
+    "image": "/images/supremacy1914.jpg",
+    "steamAppId": 979920
   },
   {
     "id": "zato",
     "name": "Z.A.T.O: I Love the World and Everything In It",
     "description": "Z.A.T.O. is a linear visual novel with roughly 7-8 hours of playtime. There are no choices. The ending is predetermined. Sit back and enjoy your time in a town that doesn't exist.",
     "tier": "borked",
-    "image": "/images/zato.jpg"
+    "image": "/images/zato.jpg",
+    "steamAppId": 4122860
   },
   {
     "id": "ets2",
     "name": "Euro Truck Simulator 2",
     "description": "European Truck Driver simulator.",
     "tier": "borked",
-    "image": "/images/ets2.jpg"
+    "image": "/images/ets2.jpg",
+    "steamAppId": 227300
   },
   {
     "id": "mindustry",
     "name": "Mindustry",
     "description": "Hybrid tower-defense sandbox factory game.",
     "tier": "borked",
-    "image": "/images/mindustry.jpg"
+    "image": "/images/mindustry.jpg",
+    "steamAppId": 1127400
   },
   {
     "id": "vtubestudio",
     "name": "VTube Studio",
     "description": "VTube Studio is all you'll ever need to become a Live2D VTuber, with innovative features such as pinning props to your model and many more still to come.",
     "tier": "borked",
-    "image": "/images/vtubestudio.jpg"
+    "image": "/images/vtubestudio.jpg",
+    "steamAppId": 1325860
   },
   {
     "id": "chromium",
     "name": "Chromium (includes CEF and other derivatives)",
     "description": "Free and open source web browser project",
     "tier": "borked",
-    "image": "/images/chromium.png"
+    "image": "/images/chromium.png",
+    "website": "https://www.chromium.org/"
   },
   {
     "id": "firefox",
     "name": "Firefox (including its derivatives)",
     "description": "Free and open source web browser project",
     "tier": "borked",
-    "image": "/images/firefox.png"
+    "image": "/images/firefox.png",
+    "website": "https://www.firefox.com/"
   }
 ]

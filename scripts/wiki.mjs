@@ -43,6 +43,12 @@ apps.forEach((app, i) => {
   if (typeof app?.tier === "string" && !tiers.includes(app.tier)) {
     errors.push(`${at}: unknown tier "${app.tier}" (expected one of ${tiers.join(", ")})`);
   }
+  if (app?.steamAppId !== undefined && !(Number.isInteger(app.steamAppId) && app.steamAppId > 0)) {
+    errors.push(`${at}: "steamAppId" must be a positive whole number`);
+  }
+  if (app?.website !== undefined && !(typeof app.website === "string" && /^https?:\/\/\S+$/.test(app.website))) {
+    errors.push(`${at}: "website" must be a full http(s) URL`);
+  }
   if (typeof app?.image === "string" && app.image.startsWith("/") && !existsSync(join(root, "public", app.image))) {
     errors.push(`${at}: image ${app.image} does not exist in public/`);
   }

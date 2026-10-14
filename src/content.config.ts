@@ -11,6 +11,8 @@ const apps = defineCollection({
     description: z.string(),
     image: z.string().optional(),
     tier: z.enum(TIER_IDS),
+    steamAppId: z.number().int().positive().optional(),
+    website: z.url().optional(),
   }),
 });
 

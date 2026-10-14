@@ -28,6 +28,8 @@ Entries live in `src/data/apps.json`. Each entry looks like this:
 }
 ```
 
+`steamAppId` and `website` are optional. `steamAppId` is the number in the app's Steam store URL (`store.steampowered.com/app/<steamAppId>/`); `website` is a full URL, for apps that aren't on Steam or that mainly distribute from their own site. Both are linked from the app's wiki page.
+
 `id` must be unique. `image` is optional: put the file in `public/images/` and reference it as `/images/<file>`, or use a full URL. Cards without an image show the app's initial on a background tinted by its tier.
 
 `tier` must be one of `platinum`, `gold`, `silver`, `bronze` or `borked`. The build fails if an entry has an unknown tier or is missing a required field. Tier labels, descriptions and colors are defined in `src/lib/tiers.ts`.

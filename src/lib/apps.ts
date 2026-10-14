@@ -6,4 +6,7 @@ export interface App {
   description: string;
   image?: string;
   tier: TierId;
+  /** Numeric id from the app's Steam store URL. */
+  steamAppId?: number;
+  website?: string;
 }
