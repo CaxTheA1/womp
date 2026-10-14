@@ -1,0 +1,61 @@
+---
+import { getCollection, getEntry, render } from "astro:content";
+import { ArrowLeft } from "lucide-react";
+import Layout from "@/layouts/Layout.astro";
+import { AppArt } from "@/components/AppCard";
+import { TierBadge } from "@/components/TierBadge";
+import { TIERS } from "@/lib/tiers";
+
+export async function getStaticPaths() {
+  const apps = await getCollection("apps");
+  return apps.map(({ data }) => ({ params: { id: data.id }, props: { app: data } }));
+}
+
+const { app } = Astro.props;
+const page = await getEntry("wiki", app.id);
+const Content = page ? (await render(page)).Content : null;
+
+const facts = [
+  { label: "Developer", value: page?.data.developer },
+  { label: "Built with", value: page?.data.builtWith },
+].filter((f) => f.value);
+---
+
+<Layout title={`${app.name} · rosemarydb`} description={app.description}>
+  <div class="mx-auto max-w-3xl pt-10 md:pt-14">
+    <a href="/" class="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground">
+      <ArrowLeft className="size-4" /> All apps
+    </a>
+
+    <header class="mt-6 flex flex-col gap-6 sm:flex-row sm:items-start">
+      <div class="aspect-video w-full shrink-0 overflow-hidden rounded-xl border border-border/60 sm:w-56">
+        <AppArt app={app} />
+      </div>
+      <div class="min-w-0">
+        <h1 class="text-3xl font-semibold tracking-tight text-balance">{app.name}</h1>
+        <p class="mt-2 text-muted-foreground">{app.description}</p>
+        <div class="mt-4 flex flex-wrap items-center gap-x-3 gap-y-2 text-sm">
+          <TierBadge tier={app.tier} />
+          <span class="text-muted-foreground">{TIERS[app.tier].summary}</span>
+        </div>
+      </div>
+    </header>
+
+    {
+      facts.length > 0 && (
+        <dl class="mt-8 grid grid-cols-1 gap-x-8 gap-y-3 border-y border-border/60 py-4 text-sm sm:grid-cols-2">
+          {facts.map((f) => (
+            <div>
+              <dt class="text-muted-foreground">{f.label}</dt>
+              <dd class="mt-0.5 font-medium">{f.value}</dd>
+            </div>
+          ))}
+        </dl>
+      )
+    }
+
+    <article class="prose prose-neutral mt-8 max-w-none dark:prose-invert prose-headings:tracking-tight">
+      {Content ? <Content /> : <p>No wiki page for this app yet.</p>}
+    </article>
+  </div>
+</Layout>

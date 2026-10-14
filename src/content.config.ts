@@ -1,5 +1,5 @@
 import { defineCollection } from "astro:content";
-import { file } from "astro/loaders";
+import { file, glob } from "astro/loaders";
 import { z } from "astro/zod";
 import { TIER_IDS } from "@/lib/tiers";
 
@@ -14,4 +14,13 @@ const apps = defineCollection({
   }),
 });
 
-export const collections = { apps };
+/** One page per app, named after the app's id. */
+const wiki = defineCollection({
+  loader: glob({ pattern: "*.mdx", base: "src/content/wiki" }),
+  schema: z.object({
+    developer: z.string().optional(),
+    builtWith: z.string().optional(),
+  }),
+});
+
+export const collections = { apps, wiki };

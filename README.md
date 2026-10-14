@@ -31,3 +31,11 @@ Entries live in `src/data/apps.json`. Each entry looks like this:
 `id` must be unique. `image` is optional: put the file in `public/images/` and reference it as `/images/<file>`, or use a full URL. Cards without an image show the app's initial on a background tinted by its tier.
 
 `tier` must be one of `platinum`, `gold`, `silver`, `bronze` or `borked`. The build fails if an entry has an unknown tier or is missing a required field. Tier labels, descriptions and colors are defined in `src/lib/tiers.ts`.
+
+## Wiki pages
+
+Every app has a wiki page at `/apps/<id>`, written in `src/content/wiki/<id>.mdx`. A page has two optional frontmatter fields, `developer` and `builtWith`, shown at the top, and two sections, "Known tweaks" and "Known bugs", for anything testers have found.
+
+`npm run wiki` validates `apps.json` and creates a page from a template for every entry that doesn't have one. `npm run wiki:check` runs the same validation but fails instead of creating pages.
+
+CI (`.github/workflows/ci.yml`) runs `npm run wiki` and a build on every pull request and every push to `master`. On `master` it commits any new wiki pages back to the branch, so adding an entry to `apps.json` is enough to get its page.

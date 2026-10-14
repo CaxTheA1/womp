@@ -1,0 +1,46 @@
+name: CI
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+
+permissions:
+  contents: write
+
+jobs:
+  wiki:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: npm
+
+      - run: npm ci
+
+      # Fails on invalid JSON, missing fields, unknown tiers, duplicate ids and
+      # missing images. Creates a wiki page for every new entry in apps.json.
+      - name: Validate apps.json and create wiki pages
+        run: npm run wiki
+
+      - name: Build
+        run: npm run build
+
+      # On pull requests the new pages only exist inside this run; they are
+      # committed once the entry lands on master.
+      - name: Commit new wiki pages
+        if: github.event_name == 'push'
+        run: |
+          git add src/content/wiki
+          if git diff --cached --quiet; then
+            echo "No new wiki pages."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898341+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Add wiki pages for new apps"
+          git pull --rebase origin master
+          git push origin HEAD:master
