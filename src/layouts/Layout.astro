@@ -2,6 +2,7 @@
 import "@/styles/global.css";
 import { Moon, Sun } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import Wordmark from "@/components/Wordmark.astro";
 
 interface Props {
   title?: string;
@@ -36,9 +37,9 @@ const {
   <body class="min-h-dvh antialiased">
     <header class="sticky top-0 z-20 border-b border-border/60 bg-background/70 backdrop-blur-md">
       <div class="mx-auto flex h-14 max-w-7xl items-center justify-between px-4 md:px-6">
-        <a href="/" class="flex items-center gap-2 font-wordmark text-xl">
+        <a href="/" class="flex items-center gap-2 text-xl">
           <img src="/favicon.svg" alt="" width="24" height="24" class="size-6" />
-          <span>rose<span class="text-violet-400 dark:text-violet-300">mary</span><span class="text-green-500 dark:text-green-300">db</span></span>
+          <Wordmark db />
         </a>
         <Button id="theme-toggle" variant="ghost" size="icon" aria-label="Toggle dark mode">
           <Sun className="hidden dark:block" />
@@ -50,7 +51,7 @@ const {
       <slot />
     </main>
     <footer class="mx-auto mt-24 max-w-7xl border-t border-border/60 px-4 py-8 text-sm text-muted-foreground md:px-6">
-      rosemarydb tracks how well apps run on the rosemary compatibility layer.
+      <Wordmark db /> tracks how well apps run on the <Wordmark /> compatibility layer.
     </footer>
     <script>
       document.getElementById("theme-toggle")?.addEventListener("click", () => {
