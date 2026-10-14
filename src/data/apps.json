@@ -48,5 +48,29 @@
     "name": "Project Zomboid",
     "description": "Project Zomboid is an open-ended zombie-infested sandbox. It asks one simple question – how will you die?",
     "tier": "borked"
+  },
+  {
+    "id": "blender",
+    "name": "Blender",
+    "description": "3D Modelling, animation, and texture making program",
+    "tier": "borked"
+  },
+  {
+    "id": "celltosingularity",
+    "name": "Cell To Singularity: Evolution Never Ends",
+    "description": "Tap into the extraordinary tale of evolution in this cosmic clicker game.",
+    "tier": "borked"
+  },
+  {
+    "id": "celltosingularity",
+    "name": "Cell To Singularity: Evolution Never Ends",
+    "description": "Tap into the extraordinary tale of evolution in this cosmic clicker game.",
+    "tier": "borked"
+  },
+  {
+    "id": "vtubestudio",
+    "name": "VTube Studio",
+    "description": "VTube Studio is all you'll ever need to become a Live2D VTuber, with innovative features such as pinning props to your model and many more still to come.",
+    "tier": "borked"
   }
 ]
