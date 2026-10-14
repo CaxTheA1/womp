@@ -62,9 +62,15 @@
     "tier": "borked"
   },
   {
-    "id": "celltosingularity",
-    "name": "Cell To Singularity: Evolution Never Ends",
-    "description": "Tap into the extraordinary tale of evolution in this cosmic clicker game.",
+    "id": "baldisbasicscr",
+    "name": "Baldi's Basics Classic Remastered",
+    "description": "Escape Baldi's schoolhouse again in this new remastered version of Baldi's Basics Classic!",
+    "tier": "borked"
+  },
+  {
+    "id": "brawlhalla",
+    "name": "Brawlhalla",
+    "description": "An epic platform fighter for up to 8 players online or local.",
     "tier": "borked"
   },
   {
