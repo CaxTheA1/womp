@@ -3,7 +3,7 @@
     "id": "subnautica",
     "name": "Subnautica",
     "description": "Descend into the depths of an alien underwater world filled with wonder and peril. Craft equipment, pilot submarines and out-smart wildlife to explore lush coral reefs, volcanoes, cave systems, and more - all while trying to survive.",
-    "tier": "gold",
+    "tier": "silver",
     "image": "/images/subnautica.jpg",
     "steamAppId": 264710
   },
@@ -36,7 +36,7 @@
     "id": "sbz",
     "name": "Subnautica: Below Zero",
     "description": "Dive into a freezing underwater adventure on an alien planet. Below Zero is set two years after the original Subnautica. Return to Planet 4546B to uncover the truth behind a deadly cover-up. Survive by building habitats, crafting tools, & diving deeper into the world of Subnautica.",
-    "tier": "gold",
+    "tier": "silver",
     "image": "/images/sbz.jpg",
     "steamAppId": 848450
   },
