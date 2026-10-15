@@ -145,6 +145,14 @@
     "steamAppId": 319630
   },
   {
+    "id": "lifeisstrangeep2",
+    "name": "Life Is Strange 2",
+    "description": "After a tragic incident, brothers Sean and Daniel Diaz run away from home. Fearing the police, and dealing with Daniel's new telekinetic power, the boys head to Mexico. Each stop on their journey brings new friends and new challenges.",
+    "tier": "borked",
+    "steamAppId": 532210,
+    "image": "/images/lifeisstrangeep2.jpg"
+  },
+  {
     "id": "dressmakerprototype",
     "name": "Dressmaker",
     "description": "Become a dressmaker, choose dress designs, cut out fabric and sew them all together to satisfy (or sabotage!) customers.",
