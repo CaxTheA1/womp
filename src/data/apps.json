@@ -91,15 +91,15 @@
   {
     "id": "terraria",
     "name": "Terraria",
-    "description": "Adventure survival game",
-    "tier": "borked",
+    "description": "Dig, Fight, Explore, Build: The very world is at your fingertips as you fight for survival, fortune, and glory. Will you delve deep into cavernous expanses in search of treasure and raw materials with which to craft ever-evolving gear, machinery, and aesthetics? Perhaps you will choose instead to seek out ever-greater foes to test your mettle in combat? Maybe you will decide to construct your own city to house the host of mysterious allies you may encounter along your travels? In the World of Terraria, the choice is yours!",
+    "tier": "bronze",
     "image": "/images/terraria.jpg",
     "steamAppId": 105600
   },
   {
     "id": "helltaker",
     "name": "Helltaker",
-    "description": "You woke up one day with a dream. Harem full of demon girls.",
+    "description": "You woke up one day with a dream. Harem full of demon girls. You've opened the portal in hopes of fulfilling your wildest desires. Hellfire burns through your lungs, death awaits around every corner and everything looks like from a cutesy mobile game. You are in hell.",
     "tier": "platinum",
     "image": "/images/helltaker.jpg",
     "steamAppId": 1289310
