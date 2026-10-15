@@ -3,7 +3,7 @@
     "id": "subnautica",
     "name": "Subnautica",
     "description": "Descend into the depths of an alien underwater world filled with wonder and peril. Craft equipment, pilot submarines and out-smart wildlife to explore lush coral reefs, volcanoes, cave systems, and more - all while trying to survive.",
-    "tier": "gold",
+    "tier": "silver",
     "image": "/images/subnautica.jpg",
     "steamAppId": 264710
   },
@@ -36,7 +36,7 @@
     "id": "sbz",
     "name": "Subnautica: Below Zero",
     "description": "Dive into a freezing underwater adventure on an alien planet. Below Zero is set two years after the original Subnautica. Return to Planet 4546B to uncover the truth behind a deadly cover-up. Survive by building habitats, crafting tools, & diving deeper into the world of Subnautica.",
-    "tier": "gold",
+    "tier": "silver",
     "image": "/images/sbz.jpg",
     "steamAppId": 848450
   },
@@ -91,16 +91,16 @@
   {
     "id": "terraria",
     "name": "Terraria",
-    "description": "Adventure survival game",
-    "tier": "borked",
+    "description": "Dig, Fight, Explore, Build: The very world is at your fingertips as you fight for survival, fortune, and glory. Will you delve deep into cavernous expanses in search of treasure and raw materials with which to craft ever-evolving gear, machinery, and aesthetics? Perhaps you will choose instead to seek out ever-greater foes to test your mettle in combat? Maybe you will decide to construct your own city to house the host of mysterious allies you may encounter along your travels? In the World of Terraria, the choice is yours!",
+    "tier": "gold",
     "image": "/images/terraria.jpg",
     "steamAppId": 105600
   },
   {
     "id": "helltaker",
     "name": "Helltaker",
-    "description": "You woke up one day with a dream. Harem full of demon girls.",
-    "tier": "borked",
+    "description": "You woke up one day with a dream. Harem full of demon girls. You've opened the portal in hopes of fulfilling your wildest desires. Hellfire burns through your lungs, death awaits around every corner and everything looks like from a cutesy mobile game. You are in hell.",
+    "tier": "platinum",
     "image": "/images/helltaker.jpg",
     "steamAppId": 1289310
   },
