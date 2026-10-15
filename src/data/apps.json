@@ -441,5 +441,12 @@
     "website": "https://www.adobe.com/acrobat/acrobat-pro.html",
     "commonsFile": "Adobe Acrobat DC icon.svg",
     "image": "/images/adobe-acrobat-pro.svg"
+  },
+  {
+    "id": "webkit",
+    "name": "WebKit (including the browsers that use it)",
+    "description": "Free and open source browser engine project",
+    "image": "/images/webkit.png",
+    "tier": "borked"
   }
 ]
