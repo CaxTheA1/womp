@@ -25,6 +25,13 @@
     "steamAppId": 848450
   },
   {
+    "id": "starbound",
+    "name": "Starbound",
+    "description": "You've fled your home, only to find yourself lost in space with a damaged ship. Your only option is to beam down to the planet below, repair your ship and set off to explore the universe...",
+    "tier": "platinum",
+    "steamAppId": 211820
+  },
+  {
     "id": "undertale",
     "name": "Undertale",
     "description": "Welcome to UNDERTALE. In this RPG, you control a human who falls underground into the world of monsters. Now you must find your way out... or stay trapped forever. ",
